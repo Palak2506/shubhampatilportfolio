@@ -87,11 +87,11 @@ const About = () => {
           </div>
         </div>
 
-        {/* Core Concepts */}
+        {/* Core Skills */}
         <div className="mt-12 text-center">
-          <h4 className="text-xl font-semibold mb-4 text-muted-foreground">Core Concepts & Coursework</h4>
+          <h4 className="text-xl font-semibold mb-4 text-muted-foreground">Core Skills & Tools</h4>
           <div className="flex flex-wrap justify-center gap-3">
-            {["Microservices", "Multithreading", "Caching", "Event-driven Design", "MVC", "MVVM", "Data Structures", "Algorithms", "Operating Systems", "Computer Networks", "DBMS", "OOP", "Distributed Systems"].map((concept, index) => (
+            {["Requirements Analysis", "Stakeholder Management", "Process Mapping", "Business Process Improvement", "Data Interpretation", "Decision Support", "SQL", "Power BI", "Tableau", "Excel (Advanced)", "Snowflake", "KPI Design & Performance Reporting", "Agile", "UAT", "Cross-functional Collaboration", "Sprint Planning & Backlog Management", "JIRA", "Azure DevOps", "ServiceNow"].map((concept, index) => (
               <Badge key={index} variant="outline" className="text-sm px-4 py-2">
                 {concept}
               </Badge>
