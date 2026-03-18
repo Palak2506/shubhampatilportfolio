@@ -1,12 +1,20 @@
 const Education = () => {
   const education = [
     {
-      degree: "Bachelor of Technology in Computer Science and Engineering",
-      school: "International Institute of Information Technology, Bhubaneswar",
-      period: "2022 – 2026",
-      gpa: "8.05/10",
-      coursework: ["Data Structures", "Algorithms", "Operating Systems", "Computer Networks", "DBMS", "OOP", "Distributed Systems"],
-      logo: "IIIT"
+      degree: "Master’s in Business Analytics",
+      school: "University of Galway, J.E. Cairnes School of Business",
+      period: "2023 – 2024",
+      gpa: "2:1",
+      coursework: ["Business Analytics", "Data Visualization", "Predictive Analytics", "SQL", "Dashboarding"],
+      logo: "UG"
+    },
+    {
+      degree: "Bachelor of Engineering in Computer Science",
+      school: "Mumbai University, Universal College of Engineering",
+      period: "2018 – 2022",
+      gpa: "2:1",
+      coursework: ["Algorithms", "DBMS", "Software Engineering", "Data Structures"],
+      logo: "MU"
     }
   ];
 

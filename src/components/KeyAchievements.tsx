@@ -6,40 +6,31 @@ import { TrendingUp, DollarSign, Clock, Users, Zap, Target } from "lucide-react"
 const KeyAchievements = () => {
   const achievements = [
     {
-      title: "ESSPL Hackathon Top 6 Finalist",
-      description: "Achieved Top 6 finalist position out of 2,500 teams in ESSPL Hackathon for developing a real-time disaster response application with innovative features and robust architecture.",
+      title: "Best Employee of the Month",
+      description: "Recognized as Best Employee of the Month at Tata Consultancy Services for consistent delivery, stakeholder collaboration, and quality reporting solutions.",
       icon: <Target className="w-8 h-8" />,
-      company: "ESSPL Hackathon",
-      category: "Competition",
-      gradient: "from-green-500 to-emerald-500",
-      metrics: ["Top 6", "2,500 Teams", "Real-time App"]
+      company: "TCS",
+      category: "Award",
+      gradient: "from-blue-500 to-sky-500",
+      metrics: ["Best Employee", "TCS", "Delivery Excellence"]
     },
     {
-      title: "LeetCode 750+ Problems Solved",
-      description: "Solved 750+ DSA problems on LeetCode with a 1800+ rating, outperforming 93% of competitors globally. Demonstrates strong problem-solving skills and algorithmic thinking.",
+      title: "Grade A Rating in Annual Appraisal",
+      description: "Received Grade A performance rating at TCS for measurable impact on analytics delivery and process improvement.",
       icon: <TrendingUp className="w-8 h-8" />,
-      company: "LeetCode",
-      category: "Competitive Programming",
-      gradient: "from-blue-500 to-cyan-500",
-      metrics: ["750+ Problems", "1800+ Rating", "Top 7% Globally"]
+      company: "TCS",
+      category: "Performance",
+      gradient: "from-teal-500 to-cyan-500",
+      metrics: ["Grade A", "Annual Appraisal", "Performance Excellence"]
     },
     {
-      title: "Flipkart Grid 6.0 Round 2 Qualifier",
-      description: "Qualified for Round 2 in Flipkart Grid 6.0, one of India's premier engineering challenges, competing against thousands of talented engineers across the country.",
+      title: "Employability Award",
+      description: "Awarded Employability Award at University of Galway for strong analytics skills and industry-ready project delivery.",
       icon: <Zap className="w-8 h-8" />,
-      company: "Flipkart",
-      category: "Competition",
-      gradient: "from-purple-500 to-pink-500",
-      metrics: ["Round 2 Qualified", "National Competition", "Engineering Challenge"]
-    },
-    {
-      title: "EY Techathon 5.0 Round 2 Qualifier",
-      description: "Qualified for Round 2 in EY Techathon 5.0, demonstrating strong technical skills and innovative problem-solving abilities in a competitive national-level technology competition.",
-      icon: <Target className="w-8 h-8" />,
-      company: "EY",
-      category: "Competition",
-      gradient: "from-orange-500 to-red-500",
-      metrics: ["Round 2 Qualified", "EY Techathon", "National Level"]
+      company: "University of Galway",
+      category: "Recognition",
+      gradient: "from-purple-500 to-fuchsia-500",
+      metrics: ["Employability Award", "University of Galway", "Analytics Competency"]
     }
   ];
 
@@ -133,20 +124,20 @@ const KeyAchievements = () => {
             <CardContent className="p-8">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
                 <div>
-                  <div className="text-3xl font-bold text-primary mb-2">Top 6</div>
-                  <div className="text-sm text-muted-foreground">ESSPL Hackathon</div>
+                  <div className="text-3xl font-bold text-primary mb-2">Best Employee</div>
+                  <div className="text-sm text-muted-foreground">TCS Award</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-accent mb-2">750+</div>
-                  <div className="text-sm text-muted-foreground">LeetCode Problems</div>
+                  <div className="text-3xl font-bold text-accent mb-2">Grade A</div>
+                  <div className="text-sm text-muted-foreground">Annual Appraisal</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-primary mb-2">1800+</div>
-                  <div className="text-sm text-muted-foreground">LeetCode Rating</div>
+                  <div className="text-3xl font-bold text-primary mb-2">Employability</div>
+                  <div className="text-sm text-muted-foreground">University of Galway</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-accent mb-2">Top 7%</div>
-                  <div className="text-sm text-muted-foreground">Global Ranking</div>
+                  <div className="text-3xl font-bold text-accent mb-2">2024</div>
+                  <div className="text-sm text-muted-foreground">AWS Cloud Certified</div>
                 </div>
               </div>
             </CardContent>

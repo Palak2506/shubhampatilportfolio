@@ -7,8 +7,8 @@ import { ExternalLink, Github, TrendingUp, Zap, Brain, Target } from "lucide-rea
 const Projects = () => {
   const projects = [
     {
-      title: "Social Graph — Distributed Social Feed & Relationship Engine",
-      description: "A Spring Boot + Kafka based microservices backend processing and ranking millions of real-time interactions with sub-100ms median feed retrieval latency.",
+      title: "Enterprise Analytics Dashboard | KPI Monitoring",
+      description: "Developed an analytics dashboard to track and monitor KPI performance across business units using SQL, Power BI, and Snowflake data models.",
       icon: <Brain className="w-8 h-8" />,
       achievements: [
         {
@@ -27,11 +27,11 @@ const Projects = () => {
       technologies: ["Spring Boot", "Java", "Kafka", "Redis", "PostgreSQL", "Neo4j", "Docker", "Prometheus", "Grafana", "Jaeger"],
       category: "Distributed Systems",
       gradient: "from-purple-500 to-pink-500",
-      githubUrl: "https://github.com/Sumit-22"
+      githubUrl: "https://github.com"
     },
     {
       title: "Multithreaded Proxy Server with LRU Cache",
-      description: "High-performance multithreaded HTTP proxy server that processed 1M+ total requests during load testing, sustaining ~10k concurrent connections using ExecutorService and TCP sockets.",
+      description: "Optimized enterprise reporting pipeline and reduced report turnaround from 24h to 16h by improving SQL query efficiency and ETL process orchestration.",
       icon: <Target className="w-8 h-8" />,
       achievements: [
         {
@@ -46,11 +46,11 @@ const Projects = () => {
       technologies: ["Java", "Multithreading", "TCP Sockets", "ExecutorService", "LRU Cache", "Logging"],
       category: "Backend",
       gradient: "from-blue-500 to-cyan-500",
-      githubUrl: "https://github.com/Sumit-22"
+      githubUrl: "https://github.com"
     },
     {
-      title: "Paper Trading App — Frontend Development",
-      description: "Developed the frontend for a Paper Trading app using TypeScript + Firebase, building multiple trading, portfolio, and authentication screens with clear user-flow logic.",
+      title: "Paper Trading App | Frontend Development",
+      description: "Led stakeholder requirements analysis and built data visualizations with Power BI to support monthly business reviews and operational decisions.",
       icon: <Zap className="w-8 h-8" />,
       achievements: [
         {
@@ -65,10 +65,10 @@ const Projects = () => {
       technologies: ["TypeScript", "Firebase", "React", "NoSQL"],
       category: "Frontend",
       gradient: "from-green-500 to-teal-500",
-      githubUrl: "https://github.com/Sumit-22"
+      githubUrl: "https://github.com"
     },
     {
-      title: "Grabit — Zepto-Style Delivery App",
+      title: "Grabit | Zepto-Style Delivery App",
       description: "Built a scalable delivery app with 40+ products, real-time cart sync, product filtering, & smooth UI using Coroutines & StateFlow with role-based access control.",
       icon: <Target className="w-8 h-8" />,
       achievements: [
@@ -88,7 +88,7 @@ const Projects = () => {
       technologies: ["Kotlin", "Firebase", "Razorpay", "MVVM", "Coroutines", "StateFlow"],
       category: "Android",
       gradient: "from-orange-500 to-red-500",
-      githubUrl: "https://github.com/Sumit-22"
+      githubUrl: "https://github.com"
     }
   ];
 
@@ -222,7 +222,7 @@ const Projects = () => {
               </p>
               <div className="flex justify-center">
                 <Button variant="gradient" size="lg" asChild>
-                  <a href="mailto:sumitgaurav048@gmail.com">
+                  <a href="mailto:patilshubham3124@gmail.com">
                     Get In Touch
                   </a>
                 </Button>

@@ -8,20 +8,20 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       label: "Email",
-      value: "sumitgaurav048@gmail.com",
-      href: "mailto:sumitgaurav048@gmail.com",
+      value: "patilshubham3124@gmail.com",
+      href: "mailto:patilshubham3124@gmail.com",
       primary: true
     },
     {
       icon: <Phone className="w-6 h-6" />,
       label: "Phone",
-      value: "+91 8092432741",
-      href: "tel:+918092432741"
+      value: "+353870381820",
+      href: "tel:+353870381820"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       label: "Location",
-      value: "Bhubaneswar, India",
+      value: "Dublin, Ireland",
       href: "#"
     }
   ];
@@ -30,14 +30,8 @@ const Contact = () => {
     {
       icon: <Linkedin className="w-5 h-5" />,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/sumit-kumar-barnwal",
+      href: "https://www.linkedin.com/in/spatil3112/",
       color: "text-blue-500"
-    },
-    {
-      icon: <Github className="w-5 h-5" />,
-      label: "GitHub",
-      href: "https://github.com/Sumit-22",
-      color: "text-gray-300"
     }
   ];
 
@@ -49,8 +43,7 @@ const Contact = () => {
             Let's <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Connect</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            I'm currently pursuing my B.Tech at IIIT Bhubaneswar and actively seeking 
-            opportunities to contribute to innovative projects and teams.
+            Analyst with 3+ years of experience in SQL reporting, dashboard development, and Agile-driven analytics delivery. Open to roles in data analytics and business intelligence.
           </p>
         </div>
 
@@ -126,16 +119,16 @@ const Contact = () => {
                     <Badge variant="default" className="text-xs">Available</Badge>
                   </div>
                   <p className="text-sm text-muted-foreground">
-                    Currently open to new opportunities and exciting projects
+                    Currently open to analytics and data roles in Dublin.
                   </p>
                 </div>
 
                 <div className="space-y-4">
                   <h4 className="font-semibold text-foreground">Education</h4>
                   <div className="text-sm text-muted-foreground">
-                    <p className="font-medium text-primary">International Institute of Information Technology, Bhubaneswar</p>
-                    <p>B.Tech in Computer Science and Engineering</p>
-                    <p>2022 – 2026 | CGPA: 8.05/10</p>
+                    <p className="font-medium text-primary">University of Galway, J.E. Cairnes School of Business</p>
+                    <p>Master’s in Business Analytics</p>
+                    <p>2023 – 2024</p>
                   </div>
                 </div>
 
@@ -162,7 +155,7 @@ const Contact = () => {
                     className="w-full" 
                     asChild
                   >
-                    <a href="mailto:sumitgaurav048@gmail.com">
+                    <a href="mailto:patilshubham3124@gmail.com">
                       <Mail className="w-4 h-4" />
                       Send Message
                     </a>

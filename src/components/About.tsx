@@ -6,23 +6,23 @@ const About = () => {
   const skillCategories = [
     {
       icon: <Code className="w-6 h-6" />,
-      title: "Languages",
-      skills: ["Java", "Kotlin", "Python", "TypeScript", "SQL"]
+      title: "Analysis & Problem Solving",
+      skills: ["Requirements Analysis", "Stakeholder Management", "Process Mapping", "Business Process Improvement", "Decision Support"]
     },
     {
       icon: <Zap className="w-6 h-6" />,
-      title: "Frameworks & Libraries",
-      skills: ["Spring Boot", "JDBC", "Servlets/JSP", "React", "Retrofit", "Jetpack Compose", "Android SDK", "Coroutines", "Room", "LiveData", "ViewModel"]
+      title: "Data & Reporting",
+      skills: ["SQL", "Power BI", "Tableau", "Excel Advanced", "Snowflake", "KPI Design"]
     },
     {
       icon: <Cloud className="w-6 h-6" />,
-      title: "Cloud & DevOps",
-      skills: ["Docker", "AWS", "Prometheus", "Grafana", "Jaeger", "Git", "GitHub", "CI/CD pipelines"]
+      title: "Delivery & Collaboration",
+      skills: ["Agile", "UAT", "Sprint Planning", "Backlog Management", "Cross-functional Collaboration"]
     },
     {
       icon: <Database className="w-6 h-6" />,
-      title: "Backend & Databases",
-      skills: ["REST APIs", "MySQL", "PostgreSQL", "Redis", "Firebase", "Neo4j", "Kafka"]
+      title: "Tools & Platforms",
+      skills: ["JIRA", "Azure DevOps", "ServiceNow", "Power BI", "Tableau"]
     }
   ];
 
@@ -34,9 +34,7 @@ const About = () => {
             About <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Me</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            I'm a passionate backend developer with expertise in building scalable systems, 
-            distributed architectures, and high-performance backend services. Currently pursuing 
-            my B.Tech in Computer Science at IIIT Bhubaneswar.
+            Analyst with 3+ years delivering SQL-driven insights, dashboards, and process improvements across consulting and startup environments. Strong track record in stakeholder collaboration and translating business needs into analytics solutions.
           </p>
         </div>
 
@@ -47,18 +45,13 @@ const About = () => {
               <h3 className="text-2xl font-bold mb-4 text-gradient">Professional Summary</h3>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Backend Developer skilled in scalable systems, distributed architectures, 
-                  and backend services using Java, Spring Boot, Kafka, Redis, and Docker. 
-                  Experienced in Android development with Kotlin (MVVM).
+                  Analyst with 3+ years of experience delivering SQL insights, dashboard reporting, and process optimization in consulting and startup environments.
                 </p>
                 <p>
-                  Strong foundation in <span className="text-primary font-semibold">system design, API development, 
-                  and CS fundamentals</span> with hands-on experience building microservices-based 
-                  applications and high-performance distributed systems.
+                  Proven ability to translate stakeholder requirements into actionable BRDs and analytics solutions, reducing report turnaround and improving decision quality.
                 </p>
                 <p>
-                  Built systems processing <span className="text-accent font-semibold">millions of real-time interactions</span> with 
-                  sub-100ms latency and sustained throughput of 250-300 RPS with 99.9% uptime.
+                  Strong foundation in reporting, data interpretation, and cross-functional collaboration with a focus on Agile delivery.
                 </p>
               </div>
             </CardContent>

@@ -6,26 +6,48 @@ import { Building2, MapPin, Calendar, TrendingUp } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      company: "Freelance",
-      position: "Frontend Developer",
-      location: "Remote",
-      duration: "May 2025 – June 2025",
-      logo: "F",
+      company: "TATA Consultancy Services",
+      position: "Assistant System Engineer - Analyst",
+      location: "Mumbai, India",
+      duration: "Jul 2022 – Jul 2024",
+      logo: "TCS",
       achievements: [
         {
-          impact: "Paper Trading App Development",
-          description: "Developed the frontend for a Paper Trading app using TypeScript + Firebase, building multiple trading, portfolio, and authentication screens while designing clear user-flow logic."
+          impact: "Accelerated Agile delivery",
+          description: "Led requirements workshops across three cross-functional teams, translating 20+ stakeholder needs into BRDs and user stories, accelerating delivery timelines by 25%."
         },
         {
-          impact: "Team Collaboration",
-          description: "Collaborated with a 4-member team to define functional & non-functional requirements and build modular UI components with a scalable NoSQL design."
+          impact: "Optimized SQL and ETL pipelines",
+          description: "Optimized 15+ SQL queries and ETL workflows, reducing reporting turnaround by 30% and improving enterprise data accuracy for over 10 stakeholders."
         },
         {
-          impact: "Complete Delivery",
-          description: "Successfully delivered a fully functional Paper Trading application frontend within the 2-month timeline with clean, maintainable code architecture."
+          impact: "Delivered KPI dashboards",
+          description: "Delivered 5 KPI dashboards using SQL and Power BI, enabling stakeholders to monitor performance metrics and make decisions 20% faster."
         }
       ],
-      technologies: ["TypeScript", "Firebase", "React", "NoSQL", "Authentication", "Real-time Database"]
+      technologies: ["SQL", "Power BI", "Tableau", "Snowflake", "Azure DevOps", "JIRA"]
+    },
+    {
+      company: "Kreartors Pvt Ltd",
+      position: "Client Solutions Intern",
+      location: "",
+      duration: "Sep 2020 – May 2021",
+      logo: "K",
+      achievements: [
+        {
+          impact: "Requirements documentation",
+          description: "Gathered and documented requirements for 5+ client web projects, improving delivery clarity by 40%."
+        },
+        {
+          impact: "Client communication",
+          description: "Coordinated feedback and timelines across clients and teams, contributing to 100% on-time milestone completion."
+        },
+        {
+          impact: "Cross-team delivery",
+          description: "Facilitated collaboration among three development teams to deliver five websites and reduce rework by 30%."
+        }
+      ],
+      technologies: ["Requirements Analysis", "Project Coordination", "Documentation", "Stakeholder Management"]
     }
   ];
 
