@@ -59,8 +59,7 @@ const Experience = () => {
             Work <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Experience</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Building production-grade systems and delivering measurable business impact 
-            through innovative technical solutions.
+            Analyst and delivery roles focused on requirements, reporting, and BI—translating stakeholder needs into SQL, dashboards, and measurable process improvements.
           </p>
         </div>
 

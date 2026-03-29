@@ -34,7 +34,7 @@ const About = () => {
             About <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">Me</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Analyst with 3+ years delivering SQL-driven insights, dashboards, and process improvements across consulting and startup environments. Strong track record in stakeholder collaboration and translating business needs into analytics solutions.
+            Business analytics professional with a BE in Computer Science and a Master’s in Business Analytics (University of Galway). I connect modelling, visualization, and Agile delivery—SQL, BI, and stakeholder reporting from my work at TCS—to decisions teams can act on.
           </p>
         </div>
 
@@ -45,13 +45,13 @@ const About = () => {
               <h3 className="text-2xl font-bold mb-4 text-gradient">Professional Summary</h3>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Analyst with 3+ years of experience delivering SQL insights, dashboard reporting, and process optimization in consulting and startup environments.
+                  Over three years in analyst and client-facing delivery roles—most recently as Assistant System Engineer (Analyst) at TCS—building KPI dashboards and reports with SQL, Power BI, Tableau, and Snowflake, and tuning queries and ETL flows to shorten reporting cycles.
                 </p>
                 <p>
-                  Proven ability to translate stakeholder requirements into actionable BRDs and analytics solutions, reducing report turnaround and improving decision quality.
+                  Comfortable owning the bridge from workshops and stakeholder needs to structured documentation (BRDs, user stories) and testable outcomes, including UAT coordination and backlog work in JIRA and Azure DevOps.
                 </p>
                 <p>
-                  Strong foundation in reporting, data interpretation, and cross-functional collaboration with a focus on Agile delivery.
+                  Coursework and projects span business modelling, strategic management, big data and data science, and a strong CS base in software engineering, databases, and machine learning—so I can work credibly with both business teams and technical owners.
                 </p>
               </div>
             </CardContent>

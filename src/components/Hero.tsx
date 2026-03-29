@@ -80,11 +80,11 @@ const Hero = () => {
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-300 mb-4 font-light relative z-20">
-            Analyst | SQL & BI Specialist
+            Business Analytics | SQL, BI & Delivery
           </p>
 
           <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed relative z-20">
-          Data analyst with 3+ years of experience delivering SQL-driven insights, dashboards, and reporting solutions across consulting and startup environments. Skilled in translating business requirements into actionable analytics that improve decision-making speed and stakeholder clarity.
+            I turn business questions into reliable metrics: SQL, Power BI, Tableau, and Snowflake on the data side, plus requirements workshops, Agile delivery, and stakeholder-ready reporting from my time at TCS and earlier client work—grounded in a Master’s in Business Analytics and a BE in Computer Science.
           </p>
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-12 text-gray-300 relative z-20">

@@ -5,7 +5,13 @@ const Education = () => {
       school: "University of Galway, J.E. Cairnes School of Business",
       period: "2023 – 2024",
       gpa: "2:1",
-      coursework: ["Business Analytics", "Data Visualization", "Predictive Analytics", "SQL", "Dashboarding"],
+      coursework: [
+        "System Development & Project Management",
+        "Business Modelling and Analytics",
+        "Strategic Management",
+        "Big Data Analytics",
+        "Data Science and Data Visualization"
+      ],
       logo: "UG"
     },
     {
@@ -13,7 +19,13 @@ const Education = () => {
       school: "Mumbai University, Universal College of Engineering",
       period: "2018 – 2022",
       gpa: "2:1",
-      coursework: ["Algorithms", "DBMS", "Software Engineering", "Data Structures"],
+      coursework: [
+        "Mathematics",
+        "Software Engineering",
+        "Programming",
+        "Database Management Systems",
+        "Machine Learning"
+      ],
       logo: "MU"
     }
   ];
