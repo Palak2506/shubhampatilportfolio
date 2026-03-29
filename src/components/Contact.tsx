@@ -136,11 +136,11 @@ const Contact = () => {
                   <h4 className="font-semibold text-foreground">Interests</h4>
                   <div className="flex flex-wrap gap-2">
                     {[
-                      "Backend Development",
-                      "Distributed Systems", 
-                      "Microservices",
-                      "Android Development",
-                      "System Design"
+                      "Data Analytics",
+                      "Business Intelligence",
+                      "SQL",
+                      "Data Visualization",
+                      "Reporting & Dashboards",
                     ].map((interest, index) => (
                       <Badge key={index} variant="secondary" className="text-xs">
                         {interest}
