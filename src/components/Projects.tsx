@@ -1,93 +1,49 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-import { ExternalLink, Github, TrendingUp, Zap, Brain, Target } from "lucide-react";
+import { ExternalLink, Github, TrendingUp, Zap, Brain, Target, Shield, Utensils } from "lucide-react";
 
 const Projects = () => {
   const projects = [
+    
+    
+    
     {
-      title: "Enterprise Analytics Dashboard | KPI Monitoring",
-      description: "Developed an analytics dashboard to track and monitor KPI performance across business units using SQL, Power BI, and Snowflake data models.",
-      icon: <Brain className="w-8 h-8" />,
+      title: "Role-Based Row-Level Security for Tableau Dashboards",
+      description: "Designed and implemented row-level security for Tableau dashboards, building SQL-based access logic tied to reporting hierarchy so users saw only role-relevant data, strengthening governance and data security across the organisation.",
+      icon: <Shield className="w-8 h-8" />,
       achievements: [
         {
-          metric: "<100ms Latency",
-          description: "Achieved sub-100ms median feed retrieval latency processing millions of real-time interactions"
+          metric: "Enterprise Security",
+          description: "Implemented row-level security ensuring users see only role-relevant data across Tableau dashboards"
         },
         {
-          metric: "250-300 RPS Throughput",
-          description: "Load-tested to sustain ~250–300 RPS with ~99.9% simulated uptime using Redis caching and Resilience4j"
-        },
-        {
-          metric: "50% Faster Incident Response",
-          description: "Integrated Prometheus–Grafana monitoring with Jaeger tracing, reducing incident response time by ~50%"
+          metric: "Reporting Hierarchy",
+          description: "Built SQL-based access logic tied to organisational reporting structure for precise data governance"
         }
       ],
-      technologies: ["Spring Boot", "Java", "Kafka", "Redis", "PostgreSQL", "Neo4j", "Docker", "Prometheus", "Grafana", "Jaeger"],
-      category: "Distributed Systems",
-      gradient: "from-purple-500 to-pink-500",
+      technologies: ["Tableau", "SQL", "Row-Level Security", "Data Governance"],
+      category: "Data & Analytics",
+      gradient: "from-blue-500 to-purple-500",
       githubUrl: "https://github.com"
     },
     {
-      title: "Multithreaded Proxy Server with LRU Cache",
-      description: "Optimized enterprise reporting pipeline and reduced report turnaround from 24h to 16h by improving SQL query efficiency and ETL process orchestration.",
-      icon: <Target className="w-8 h-8" />,
+      title: "Data-Driven Nutrition Recommendation System",
+      description: "Identified a gap in personalised health decision-making, designed a data-driven recommendation system that mapped user inputs to structured dietary recommendations, published in JETIR.",
+      icon: <Utensils className="w-8 h-8" />,
       achievements: [
         {
-          metric: "1M+ Requests Processed",
-          description: "Processed 1M+ total requests during load testing with ~10k concurrent connections"
+          metric: "Published in JETIR",
+          description: "Research paper published in Journal of Emerging Technologies and Innovative Research"
         },
         {
-          metric: "60% Faster Response",
-          description: "Integrated thread-safe LRU cache, achieving ~60% faster response time on repeated network requests"
+          metric: "Personalised Recommendations",
+          description: "Built system that maps user inputs to structured dietary recommendations for health decisions"
         }
       ],
-      technologies: ["Java", "Multithreading", "TCP Sockets", "ExecutorService", "LRU Cache", "Logging"],
-      category: "Backend",
-      gradient: "from-blue-500 to-cyan-500",
-      githubUrl: "https://github.com"
-    },
-    {
-      title: "Paper Trading App | Frontend Development",
-      description: "Led stakeholder requirements analysis and built data visualizations with Power BI to support monthly business reviews and operational decisions.",
-      icon: <Zap className="w-8 h-8" />,
-      achievements: [
-        {
-          metric: "Freelance Project",
-          description: "Delivered complete frontend for Paper Trading application within 2 months (May 2025 – June 2025)"
-        },
-        {
-          metric: "4-Member Team Collaboration",
-          description: "Collaborated with team to define functional & non-functional requirements and build modular UI components"
-        }
-      ],
-      technologies: ["TypeScript", "Firebase", "React", "NoSQL"],
-      category: "Frontend",
-      gradient: "from-green-500 to-teal-500",
-      githubUrl: "https://github.com"
-    },
-    {
-      title: "Grabit | Zepto-Style Delivery App",
-      description: "Built a scalable delivery app with 40+ products, real-time cart sync, product filtering, & smooth UI using Coroutines & StateFlow with role-based access control.",
-      icon: <Target className="w-8 h-8" />,
-      achievements: [
-        {
-          metric: "40+ Products",
-          description: "Built scalable delivery app with real-time cart sync and product filtering"
-        },
-        {
-          metric: "Razorpay Integration",
-          description: "Integrated secure payments with order verification and transaction logging"
-        },
-        {
-          metric: "Role-Based Access",
-          description: "Implemented role-based access for users/admins/delivery partners using Firebase Auth & Firestore in MVVM"
-        }
-      ],
-      technologies: ["Kotlin", "Firebase", "Razorpay", "MVVM", "Coroutines", "StateFlow"],
-      category: "Android",
-      gradient: "from-orange-500 to-red-500",
+      technologies: ["Python", "Machine Learning", "Data Science", "Nutrition Analytics"],
+      category: "Machine Learning",
+      gradient: "from-green-500 to-emerald-500",
       githubUrl: "https://github.com"
     }
   ];
@@ -179,16 +135,7 @@ const Projects = () => {
                         </div>
                       </div>
 
-                      {/* Action Buttons */}
-                      <div className="flex gap-3 pt-4 mt-auto">
-                        <Button variant="outline" size="sm" asChild className="w-full">
-                          <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                            <Github className="w-4 h-4" />
-                            Source Code
-                          </a>
-                        </Button>
-                      </div>
-                    </CardContent>
+                      </CardContent>
                     </Card>
                   </div>
                 </CarouselItem>
@@ -220,13 +167,7 @@ const Projects = () => {
                 I'm always excited to work on challenging problems and innovative solutions. 
                 Let's discuss how we can build something amazing together.
               </p>
-              <div className="flex justify-center">
-                <Button variant="gradient" size="lg" asChild>
-                  <a href="mailto:patilshubham3124@gmail.com">
-                    Get In Touch
-                  </a>
-                </Button>
-              </div>
+              
             </CardContent>
           </Card>
         </div>
